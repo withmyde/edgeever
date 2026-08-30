@@ -1,17 +1,15 @@
 {
-  "version": "1.47.0",
+  "version": "1.49.0",
   "changes": {
     "en-US": [
-      "Desktop sync issues can now open a prefilled GitHub report with diagnostics, making failures easier to report and resolve.",
-      "Workspace shortcuts now provide a single, predictable home for plugin actions, while duplicate Marketplace and AI prompt entries have been removed.",
-      "The editor now recovers from stalled browser storage, preserves an emergency draft, and offers retry or copy actions instead of leaving saves stuck.",
-      "Large sync batches now fetch change details in bounded groups, preventing bulk imports and other high-volume updates from failing at query limits."
+      "Add a Windows x64 Preview with secure automatic updates; unsigned builds may show a Windows security warning, so download only from the official EdgeEver Release.",
+      "Keep personal self-hosted instances aligned with each official Release automatically.",
+      "Reduce redundant demo seed writes to improve API reliability and database efficiency."
     ],
     "zh-CN": [
-      "桌面端同步问题现在可直接打开预填诊断信息的 GitHub 报告，便于反馈和排查故障。",
-      "工作区快捷入口现在集中承载插件操作，并移除了重复的插件市场与 AI 提示词入口。",
-      "编辑器现在可从浏览器本地存储卡顿中恢复，保留应急草稿并提供重试或复制操作，避免保存一直停滞。",
-      "大批量同步现在会分组获取变更详情，避免批量导入等高频更新因查询数量限制而失败。"
+      "新增 Windows x64 预览版并支持安全自动更新；由于安装包暂未使用 Authenticode 签名，Windows 可能显示安全警告，请仅从 EdgeEver 官方 Release 下载。",
+      "个人自托管实例现在会随每个官方 Release 自动同步部署。",
+      "减少 Demo 示例数据的重复写入，提升 API 可靠性与数据库效率。"
     ]
   }
 }
